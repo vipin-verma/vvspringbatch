@@ -1,0 +1,3 @@
+name: vvspringbatch
+packages:
+- path: com.example.vvspringbatch

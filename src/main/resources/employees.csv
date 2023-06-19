@@ -1,0 +1,11 @@
+firstName,lastName,email,phone,position,department
+John,Doe,john.doe@example.com,555-1234,Software Engineer,IT
+Jane,Doe,jane.doe@example.com,555-5678,Product Manager,Product
+Michael,Smith,michael.smith@example.com,555-9012,Data Analyst,Analytics
+Emily,Johnson,emily.johnson@example.com,555-3456,UI/UX Designer,Design
+Kevin,Brown,kevin.brown@example.com,555-7890,Marketing Manager,Marketing
+Olivia,Lee,olivia.lee@example.com,555-2345,Accountant,Finance
+James,Harris,james.harris@example.com,555-6789,Network Engineer,IT
+Sophia,Clark,sophia.clark@example.com,555-0123,HR Specialist,Human Resources
+William,Lewis,william.lewis@example.com,555-4567,Project Manager,Project Management
+Ava,Young,ava.young@example.com,555-8901,Content Writer,Content

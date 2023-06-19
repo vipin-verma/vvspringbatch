@@ -1,0 +1,111 @@
+2023-05-06 16:46:17.737 [main] INFO  c.e.v.VvspringbatchApplication - Starting VvspringbatchApplication using Java 11.0.16.1 on DESKTOP-B0C49SI with PID 22640 (C:\Users\Dell\IdeaProjects\vvspringbatch\target\classes started by Dell in C:\Users\Dell\IdeaProjects\vvspringbatch)
+2023-05-06 16:46:17.739 [main] DEBUG c.e.v.VvspringbatchApplication - Running with Spring Boot v2.7.11, Spring v5.3.27
+2023-05-06 16:46:17.740 [main] INFO  c.e.v.VvspringbatchApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-06 16:46:18.403 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-06 16:46:18.464 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-05-06 16:46:18.837 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-06 16:46:19.687 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-06 16:46:19.854 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-06 16:46:19.945 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-06 16:46:20.173 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-06 16:46:20.329 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-06 16:46:21.012 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-06 16:46:21.034 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-06 16:46:21.063 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.064 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.064 [main] INFO  c.e.vvspringbatch.JobConfiguration - JobConfiguration
+2023-05-06 16:46:21.064 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.064 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.098 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.098 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.098 [main] INFO  c.e.vvspringbatch.JobConfiguration - FlatFileItemReader
+2023-05-06 16:46:21.098 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.098 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.120 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.120 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.120 [main] INFO  c.e.vvspringbatch.JobConfiguration - ItemProcessor
+2023-05-06 16:46:21.120 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.120 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.122 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.122 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.122 [main] INFO  c.e.vvspringbatch.JobConfiguration - JdbcBatchItemWriter
+2023-05-06 16:46:21.122 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.122 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.130 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.131 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.131 [main] INFO  c.e.vvspringbatch.JobConfiguration - step1
+2023-05-06 16:46:21.131 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.131 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.176 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.176 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.176 [main] INFO  c.e.vvspringbatch.JobConfiguration - JdbcBatchItemWriter
+2023-05-06 16:46:21.176 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.176 [main] INFO  c.e.vvspringbatch.JobConfiguration - ********************************************************************************************************************
+2023-05-06 16:46:21.219 [main] WARN  o.s.b.a.batch.JpaBatchConfigurer - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs. To silence this warning, set 'spring.batch.jdbc.isolation-level-for-create' to 'default'.
+2023-05-06 16:46:21.227 [main] INFO  o.s.b.c.r.s.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+2023-05-06 16:46:21.434 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2023-05-06 16:46:21.804 [main] INFO  c.e.v.VvspringbatchApplication - Started VvspringbatchApplication in 4.582 seconds (JVM running for 6.1)
+2023-05-06 16:46:21.805 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: []
+2023-05-06 16:46:21.995 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [FlowJob: [name=importEmployeeJob]] launched with the following parameters: [{run.id=12}]
+2023-05-06 16:46:22.054 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [step1]
+2023-05-06 16:46:22.113 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.113 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.113 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.113 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.113 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.114 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.115 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - process
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.116 [main] INFO  c.e.v.EmployeeItemProcessor - ********************************************************************************************************************
+2023-05-06 16:46:22.144 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [step1] executed in 87ms
+2023-05-06 16:46:22.152 [main] INFO  c.e.v.JobCompletionNotificationListener - ********************************************************************************************************************
+2023-05-06 16:46:22.152 [main] INFO  c.e.v.JobCompletionNotificationListener - ********************************************************************************************************************
+2023-05-06 16:46:22.152 [main] INFO  c.e.v.JobCompletionNotificationListener - afterJob
+2023-05-06 16:46:22.152 [main] INFO  c.e.v.JobCompletionNotificationListener - ********************************************************************************************************************
+2023-05-06 16:46:22.152 [main] INFO  c.e.v.JobCompletionNotificationListener - ********************************************************************************************************************
+2023-05-06 16:46:22.153 [main] INFO  c.e.v.JobCompletionNotificationListener - Job completed successfully!
+2023-05-06 16:46:22.160 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [FlowJob: [name=importEmployeeJob]] completed with the following parameters: [{run.id=12}] and the following status: [COMPLETED] in 130ms
+2023-05-06 16:46:22.167 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-06 16:46:22.170 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-06 16:46:22.189 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
